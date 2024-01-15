@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background: url('https://images.pexels.com/photos/3298637/pexels-photo-3298637.jpeg?cs=srgb&dl=pexels-cottonbro-studio-3298637.jpg&fm=jpg') center center fixed;
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #33333345;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+
+  .recipe-box {
+    display: inline-block;
+    background-color: #2b29296a;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 10vh;
+    transition: background-color 0.3s ease; /* Füge eine Übergangseigenschaft hinzu */
+  }
+
+  .recipe-box:hover {
+    display: inline-block;
+    background-color: #9991916a;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 10vh;
+
+  }
+  
+  .recipe-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    padding: 20px 20px 5px 20px;
+  }
+
+  p {
+    font-size: larger;
+
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #33333345;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .shadowfooter {
+    border: 1px solid rgba(255, 0, 0, 0);
+    border-width: 100%;
+    padding: 10px;
+    margin-top: 100px;
+    color: rgba(255, 0, 0, 0);
+}
+
+

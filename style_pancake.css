@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background: url('https://lh3.google.com/u/0/d/1fX1SzAamGAtrPNI4YFjMA1qy3312UJZ1=w2000-h3556-iv1') center center fixed;
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #23232383;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+
+  p {
+    font-size: large;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #33333345;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .shadowfooter {
+      border: 1px solid rgba(255, 0, 0, 0);
+      border-width: 100%;
+      padding: 10px;
+      margin-top: 100px;
+      color: rgba(255, 0, 0, 0);
+  }
+
+  .home-button {
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #cbcbcb3e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Füge eine Übergangseigenschaft hinzu */
+  }
+  
+  .home-button:hover {
+    background-color: #ffffff3e; /* Ändere die Hintergrundfarbe im Hover-Zustand */
+  }
+
+  .button-icon {
+    width: 20px;
+    height: auto;
+    margin-left: -10px;
+    margin-right: 5px;
+    margin-top: -5px;
+    margin-bottom: -3px;
+  }
+
+
+  #recipe-container {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #dddddd00;
+    border-radius: 8px;
+    background-color: #fbfbfb;
+  }
+
+  #recipe-header {
+    color: black;
+  }
+
+#recipe-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding-left: -150px;    
+}
+
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: #333;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+
